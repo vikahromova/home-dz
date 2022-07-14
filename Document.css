@@ -1,0 +1,175 @@
+body {
+	background-image: url(Bicycle.jpg);
+	background-size: cover;
+	padding: 0;
+}
+
+.main-header {
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 30px;
+}
+
+.navbar ul {
+	display: none;
+	background-color: #f90;
+	position: static;
+	top: 100%;
+}
+.navbar li:hover ul {
+	display: block;
+}
+.navbar,
+.navbar ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.navbar {
+	height: 70px;
+	background-color: #666666;
+	padding-left: 45px;
+	min-width: 150px;
+	word-spacing: normal;
+}
+.navbar li {
+	float: left;
+	position: relative;
+	height: 100%;
+}
+.navbar li a {
+	display: block;
+	padding: 40px;
+	width: 100px;
+	color: #ffffff;
+	text-decoration: none;
+	text-align: center;
+	word-spacing: 20px;
+}
+
+.navbar ul li {
+	float: none;
+}
+.navbar li:hover {
+	background-color: rgb(223, 220, 215);
+}
+.navbar ul li:hover {
+	background-color: #666666;
+}
+
+aside {
+	border-color: grey;
+	border-style: solid;
+	border-width: thin;
+	border-left: 10px solid grey;
+	padding: 20px;
+	width: 150px;
+	float: left;
+	font-size: 20px;
+	line-height: 30px;
+	word-wrap: inherit;
+	color: #ffffff;
+}
+
+fieldset {
+	border-color: grey;
+	border-style: solid;
+	border-width: thin;
+	border-left: 10px solid grey;
+	padding: 20px;
+	width: 150px;
+	float: right;
+	font-size: 20px;
+	line-height: 20px;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+	line-height: 1;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+}
+p {
+	font-size: 30px; /*размер шрифта*/
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+}
+
+.footer {
+	font-size: 30px;
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	height: 30px;
+	width: 100%;
+	color: black;
+}
+.footer a {
+	color: #ffffff;
+}
+
+.container {
+	width: 100%;
+	height: auto;
+}
+.container ul {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	position: relative;
+}
+.container ul li {
+	display: block;
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+.container ul li a {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: auto;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #fff;
+	line-height: 40px;
+	padding: 10px 10px;
+	letter-spacing: 1px;
+	background-color: #fff;
+	color: #fff;
+	text-decoration: none;
+}
+
+.container ul li a,
+.container ul li:hover a {
+	background: rgb(216, 214, 211);
+}
+.container ul li ul {
+	position: absolute;
+	top: 0px;
+	left: 100%;
+	display: none;
+	width: auto;
+}
+.container ul li:hover ul {
+	display: block;
+}
+.container ul li ul li a {
+	white-space: nowrap;
+	text-decoration: none;
+	padding: 5px 10px;
+}
+.container ul li ul li a:hover {
+	background: #f90;
+}
